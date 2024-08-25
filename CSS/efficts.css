@@ -1,0 +1,360 @@
+body{
+background-image: url(../Assets/abstract-blue-polygon-triangles-shape-pattern-background-with-lighting-effect-luxury-style_574957-668.jpg);
+background-size: cover;
+height: 700px;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.title{
+    text-align: center;
+    color: rgb(230, 250, 255);
+    text-shadow: 1px 1px 2px #d9c5c5, 2px 2px 5px #dcd7c5;
+    margin-top: 40px;
+    padding: 0px 0px;
+   
+}
+
+       
+    /* ــــــــــــStart-profileــــــــــــ */
+.profile{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;  
+    background-color: blue;
+    background-image: url(../Assets/46fd1eb6382a219332b59378b4a0ae01.jpg);
+    background-size: 100% 100%;   
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgb(196, 182, 151);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(240, 233, 219);
+    align-items: center;
+    margin-top: 1.5%;
+   
+    
+
+}
+/* ــــــــــCaptionـــــــــــ */
+
+.caption{
+background-color: rgba(0, 0, 0, 0.229);
+width: 100%;
+height: 100%;
+color: rgb(236, 230, 223);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: absolute;
+top: 100%;
+right: 100%;
+transition: all 0.7s;
+
+}
+
+.profile:hover .caption{
+    top:0;
+    right:0;
+    transform: rotate(360deg);
+}
+
+.profile .caption h2{
+padding: 5px 23px;
+padding-top: 12px;
+margin-top: 0;
+
+}
+
+.profile .caption p{
+    padding: 22px 22px;
+    padding-bottom: 0px;
+    font-size: 14px;   
+}
+
+.profile .caption button{
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(222, 146, 146) ;
+    padding: 2px;
+    background-color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* ــــــــــEND PROFILE 1ــــــــــ */
+
+/* <!--ـــــــــــــ form ــــــــــــــــ --> */
+
+.form{
+    width: 50%;
+    margin: 100px auto ;
+    position: relative;
+    position: absolute;
+    top: 390px;
+    right: 85px;
+    
+}
+
+.form input:focus + label {
+    position: absolute;
+    left:3px;
+    top:-30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: brown;   
+}
+
+.form label{
+    position: absolute;
+    left:50px;
+    transition: all 0.6s;
+}
+
+h4{
+    position: absolute;
+    top: 490px;
+    right: 660px;
+    font-size: 25px;
+    color: rgb(223, 156, 0);
+    font-family: cursive;
+    text-shadow: 1px 1px 2px #777070, 2px 2px 5px #c1ad65;
+}
+
+/* ـــــــــــــStart Profile2ـــــــــــــ */
+
+.row{
+display: flex;
+justify-content: space-around;
+
+    
+}
+
+.Profile2{
+    background-size: 100% 100%;
+    background-image: url(../Assets/istockphoto-1282632403-2048x2048.jpg);
+    /* margin: auto; */
+    width: 300px;
+    height: 300px;
+    text-align: center;  
+    /* overflow: auto; */
+    border: 1px solid rgb(196, 182, 151);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(240, 233, 219);
+    align-items: center;
+    margin-top: 1%; 
+    }
+
+        /* ____________content____________ */
+
+    .Profile2 .content{
+        background-color: rgba(0, 0, 0, 0.229);
+        width: 100%;
+        height: 100%;
+        color: rgb(250, 237, 223);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        opacity: 0;
+        transition: all 0.5s; 
+        overflow: auto;
+    }
+
+    .content:hover{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    
+    .content h2{
+        padding: 5px 23px;
+        padding-top: 12px;
+        margin-top: 0;   
+    }
+
+    .pragraph {
+        padding: 20px 15px;
+        
+        padding-bottom: 0px;
+        font-size: 14.5px;  
+    }
+
+
+    .Profile2 .content button{
+        width: 50%;
+        border-radius: 20px;
+        cursor: pointer;
+        border: 3px solid rgb(106, 64, 108) ;
+        background-color: rgb(247, 185, 232);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+    }
+/* ـــــــــــــEND Profile2ـــــــــــــ */
+
+
+ /* ـــــــــــــStart Profile 3ـــــــــــــ */
+ .Profile3{
+    background-size: 100% 100%;
+    background-image: url(../Assets/istockphoto-1282632403-2048x2048.jpg);
+    /* margin: auto; */
+    width: 300px;
+    height: 300px;
+    text-align: center;  
+    /* overflow: auto; */
+    border: 1px solid rgb(196, 182, 151);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(240, 233, 219);
+    align-items: center;
+    margin-top: 1%; 
+    }
+
+        /* ____________content____________ */
+
+    .Profile3 .content2{
+        background-color: rgba(0, 0, 0, 0.229);
+        width: 100%;
+        height: 100%;
+        color: rgb(250, 237, 223);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        opacity: 0;
+        transition: all 0.9s; 
+        overflow: auto;
+    }
+
+    .content2:hover{
+        opacity: 1;
+        transform:translatex(4%);
+    }
+    
+    .content2 h2{
+        padding: 5px 23px;
+        padding-top: 12px;
+        margin-top: 0;   
+    }
+
+    .pragraph {
+        padding: 20px 15px;
+        
+        padding-bottom: 0px;
+        font-size: 14.5px;  
+    }
+
+
+    .Profile3 .content2 button{
+        width: 50%;
+        border-radius: 20px;
+        cursor: pointer;
+        border: 3px solid rgb(71, 91, 139) ;
+        background-color: rgb(190, 210, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
+    }
+    
+
+
+/* <!-- ـــــــــــenimation Spinner-4ـــــــــــــ --> */
+/* <!-- ــــــــــــــ كذا دايرة تحميل ــــــــــــ --> */
+
+.motion .spinners{
+    position: absolute;
+    top: 570px;
+    left: 395px;
+}
+
+
+
+div.spinners{
+    width: 800px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(23, 23, 58, 0.236); */
+    display: flex;
+    align-items: center;
+}
+
+.loder1{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:50% ;
+    right: 53%;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    box-shadow: 10px 10px 10px rgb(71, 91, 139);
+
+    animation-name:move;
+    animation-iteration-count: infinite;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    
+}
+
+.loder2{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:43% ;
+    right: 50%;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    box-shadow: 10px 10px 10px rgb(138, 100, 144);
+
+    animation-name:move;
+    animation-iteration-count: infinite;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-in;
+}
+
+.loder3{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    box-shadow: 10px 10px 10px rgb(163, 128, 94);
+    position: absolute;
+    top:50% ;
+    right: 48%;
+
+    animation-name:move;
+    animation-iteration-count: infinite;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-out ;
+}
+
+
+@keyframes move{
+    form{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+ /* ـــــــــــــSocialـــــــــــــ */
+
+ .social .icon{
+    width: 175px;
+    height: 44px;
+    background-color: rgba(104, 83, 67, 0.348);
+    position: fixed;   
+    top: 200px;
+    left: 0;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px rgb(240, 233, 219);
+
+}
+.social .icon a {
+    color: rgb(204, 193, 173);
+    padding: 0px 9px;
+    font-size:2.3em;
+    transition: 0.8s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
